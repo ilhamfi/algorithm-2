@@ -1,9 +1,11 @@
+package firtina;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class javaApplication10 {
+public class javaApplication11 {
     public static void main(String[] args) throws IOException {
         File l = new File("ali.txt");
         Scanner k = new Scanner(System.in);
@@ -11,7 +13,7 @@ public class javaApplication10 {
 
         for (int i = 0; i < 5; i++) {
             String s = k.nextLine();
-            fw.write(s+" ");
+            fw.write(s + " ");
 
         }
         fw.close();

@@ -1,3 +1,5 @@
+package firtina;
+
 public class javaAplication1 {
     public int topla(int a,int b){
 

@@ -1,3 +1,5 @@
+package firtina;
+
 import java.io.File;
 
 public class javaApplication7 {

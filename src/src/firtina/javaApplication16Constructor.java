@@ -1,4 +1,4 @@
-
+package firtina;
 
 public class javaApplication16Constructor {
     public static void main(String[] args) {

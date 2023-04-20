@@ -1,3 +1,5 @@
+package firtina;
+
 public class stepneClassConstructor {
 
     public int yas = 34;
