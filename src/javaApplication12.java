@@ -1,3 +1,5 @@
+package firtina;
+
 import java.util.ArrayList;
 
 public class javaApplication12 {

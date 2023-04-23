@@ -1,3 +1,5 @@
+package firtina;
+
 public class javaAplication2 {
 
     public static String[] don(String[]a ){

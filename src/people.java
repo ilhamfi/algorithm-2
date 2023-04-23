@@ -1,3 +1,5 @@
+package firtina;
+
 public class people {
     private int yas;
     private String ad;
@@ -8,8 +10,13 @@ public class people {
         this.ad = ad;
         this.soyad = soyad;
     }
+    public people() {
+        this.yas = 0;
+        this.ad = " null";
+        this.soyad = " null";
+    }
 
-    public int getYas() {
+    public int getAge() {
         return yas;
     }
 
@@ -21,7 +28,7 @@ public class people {
         return soyad;
     }
 
-    public void setYas(int yas) {
+    public void setAge(int yas) {
         this.yas = yas;
     }
 
@@ -31,5 +38,10 @@ public class people {
 
     public void setSoyad(String soyad) {
         this.soyad = soyad;
+    }
+
+    public void printInfo(){
+
+        System.out.println(yas+ad+soyad);
     }
 }

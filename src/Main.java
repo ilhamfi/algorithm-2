@@ -1,6 +1,12 @@
+package firtina;
+
 public class Main {
     public static void main(String[] args) {
-        student talebe = new student(12, "yasar", "ozturk");
-        System.out.println(talebe.getAd());
+people men=new people();
+men.printInfo();
+men.setAd(" eymen");
+men.setAge(21);
+men.setSurname(" yıldırım");
+men.printInfo();
     }
 }
