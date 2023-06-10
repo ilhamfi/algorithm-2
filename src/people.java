@@ -36,7 +36,7 @@ public class people {
         this.ad = ad;
     }
 
-    public void setSoyad(String soyad) {
+    public void setSurname(String soyad) {
         this.soyad = soyad;
     }
 
